@@ -1,0 +1,41 @@
+Start testing: Oct 04 13:18 CST
+----------------------------------------------------------
+1/1 Testing: icp_test
+1/1 Test: icp_test
+Command: "/mnt2/zjh/code/Goleta/session_95/b/build/icp_test"
+Directory: /mnt2/zjh/code/Goleta/session_95/b/build
+"icp_test" start time: Oct 04 13:18 CST
+Output:
+----------------------------------------------------------
+[ RUN  ] TestExact3d
+[ DONE ] TestExact3d
+[ RUN  ] TestExact2d
+[ DONE ] TestExact2d
+[ RUN  ] TestNoisy3d
+[ DONE ] TestNoisy3d
+[ RUN  ] TestOutliers3d
+[ DONE ] TestOutliers3d
+[ RUN  ] TestPartialOverlap3d
+[ DONE ] TestPartialOverlap3d
+[ RUN  ] TestPoorInitialGuess3d
+[ DONE ] TestPoorInitialGuess3d
+[ RUN  ] TestEmptyInput
+[ DONE ] TestEmptyInput
+[ RUN  ] TestDimensionMismatch
+[ DONE ] TestDimensionMismatch
+[ RUN  ] TestDegenerateCollinear
+[ DONE ] TestDegenerateCollinear
+[ RUN  ] TestSevereNonOverlap
+[ DONE ] TestSevereNonOverlap
+
+47/47 checks passed
+RESULT: PASS
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"icp_test" end time: Oct 04 13:18 CST
+"icp_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 04 13:18 CST
