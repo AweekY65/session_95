@@ -1,0 +1,64 @@
+Start testing: Oct 04 13:19 CST
+----------------------------------------------------------
+1/1 Testing: icp_tests
+1/1 Test: icp_tests
+Command: "/mnt2/zjh/code/Goleta/session_95/a/build/icp_tests"
+Directory: /mnt2/zjh/code/Goleta/session_95/a/build
+"icp_tests" start time: Oct 04 13:19 CST
+Output:
+----------------------------------------------------------
+Test: noise-free 3D alignment
+  [ ok ] status converged
+  [ ok ] rmse ~ 0
+  [ ok ] rotation error < 1e-6 rad
+  [ ok ] translation error < 1e-6
+  [ ok ] noise-free: det(R) == +1 (no reflection)
+  [ ok ] noise-free: R is orthonormal (no scale)
+Test: noisy 3D alignment
+  [ ok ] status ok
+  [ ok ] rotation error < 0.02 rad
+  [ ok ] translation error < 0.02
+  [ ok ] noisy: det(R) == +1 (no reflection)
+  [ ok ] noisy: R is orthonormal (no scale)
+Test: outliers rejected by max correspondence distance
+  [ ok ] status ok
+  [ ok ] rotation error < 1e-3 rad
+  [ ok ] translation error < 1e-3
+  [ ok ] outliers excluded from correspondences
+Test: partial overlap
+  [ ok ] status ok
+  [ ok ] rotation error < 0.05 rad
+  [ ok ] translation error < 0.05
+Test: recovery from a poor initial guess
+  [ ok ] status ok
+  [ ok ] rotation error < 1e-3 rad
+  [ ok ] translation error < 1e-3
+Test: 2D alignment
+  [ ok ] status converged
+  [ ok ] rotation error < 1e-6
+  [ ok ] translation error < 1e-6
+  [ ok ] 2d: det(R) == +1 (no reflection)
+  [ ok ] 2d: R is orthonormal (no scale)
+Test: empty point cloud fails cleanly
+  [ ok ] empty source rejected
+  [ ok ] empty target rejected
+Test: collinear points reported as degenerate
+  [ ok ] collinear cloud -> degenerate_geometry
+Test: coincident points reported as degenerate
+  [ ok ] coincident cloud -> degenerate_geometry
+Test: severely non-overlapping clouds fail explicitly
+  [ ok ] far-apart clouds -> insufficient_correspondences
+Test: iteration budget produces explicit status
+  [ ok ] status max_iterations_reached
+  [ ok ] iteration count respected
+
+33 checks, 0 failures
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"icp_tests" end time: Oct 04 13:19 CST
+"icp_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 04 13:19 CST

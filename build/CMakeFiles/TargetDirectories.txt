@@ -1,0 +1,5 @@
+/mnt2/zjh/code/Goleta/session_95/a/build/CMakeFiles/icp.dir
+/mnt2/zjh/code/Goleta/session_95/a/build/CMakeFiles/icp_tests.dir
+/mnt2/zjh/code/Goleta/session_95/a/build/CMakeFiles/test.dir
+/mnt2/zjh/code/Goleta/session_95/a/build/CMakeFiles/edit_cache.dir
+/mnt2/zjh/code/Goleta/session_95/a/build/CMakeFiles/rebuild_cache.dir

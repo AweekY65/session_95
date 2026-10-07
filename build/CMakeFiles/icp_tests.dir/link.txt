@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/icp_tests.dir/tests/test_icp.cpp.o -o icp_tests  libicp.a 
